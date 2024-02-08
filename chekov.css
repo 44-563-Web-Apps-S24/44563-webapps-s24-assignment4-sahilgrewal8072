@@ -46,3 +46,14 @@ body {
   background-color: #c2aeae;
 }
 
+.chubukov:hover {
+  text-shadow: 3px 4px 7px rgb(29, 34, 51);
+  border: 3px solid rgb(157, 38, 50);
+  width: fit-content;
+}
+
+.lomov:hover {
+  text-shadow: 3px 4px 7px rgba(217, 14, 167, 0.433);
+  border: 3px solid rgb(38, 157, 111);
+  width: fit-content;
+}
