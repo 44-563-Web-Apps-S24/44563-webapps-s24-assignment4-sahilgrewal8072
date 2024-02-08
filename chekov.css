@@ -29,3 +29,20 @@ body {
 .lomov {
   color: rgb(159, 6, 108);
 }
+
+.table-section {
+  width: 100px;
+  border-collapse: collapse;
+  margin : 10px 10px 10px 10px;
+}
+
+.table-section th, td {
+  border: 1px solid #1353c2;
+  padding: 28px;
+  text-align: center;
+}
+
+.table-section th {
+  background-color: #c2aeae;
+}
+
