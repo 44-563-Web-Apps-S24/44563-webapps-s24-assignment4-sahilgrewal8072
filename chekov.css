@@ -30,6 +30,12 @@ body {
   color: rgb(159, 6, 108);
 }
 
+body{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 60px;
+}
+
 .table-section {
   width: 100px;
   border-collapse: collapse;
@@ -56,4 +62,23 @@ body {
   text-shadow: 3px 4px 7px rgba(217, 14, 167, 0.433);
   border: 3px solid rgb(38, 157, 111);
   width: fit-content;
+}
+
+.my-navbar{
+  background-color: rgba(39, 127, 178, 0.381);
+  display: flex;
+  width: 100%;
+  left: 0;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+}
+
+.nav-content {
+  display: flex;
+  padding: 35px;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(34, 15, 57);
+  font-size: large;
 }
